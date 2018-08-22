@@ -66,10 +66,6 @@ function genesis_sample_enqueue_scripts_styles() {
 		CHILD_THEME_VERSION
 	);
 	wp_enqueue_style( 'dashicons' );
-	wp_enqueue_style(
-		'line-awesome',
-		'https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css'
-	);
 
 	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
 	wp_enqueue_script(
@@ -340,34 +336,6 @@ add_filter('widget_text','do_shortcode');
 	function button_read_more_link() {
 	return '<p><a class="button secondary" href="' . get_permalink() . '">Read more</a></p>';
 	}
-
-	// Line Awesome Shortcodes
-function addscFontAwesome($atts) {
-    extract(shortcode_atts(array(
-    'type'  => '',
-    'size' => '',
-    'rotate' => '',
-    'flip' => '',
-    'pull' => '',
-    'animated' => '',
-    'class' => '',
-
-    ), $atts));
-
-    $classes  = ($type) ? 'fa-'.$type. '' : 'fa-star';
-    $classes .= ($size) ? ' fa-'.$size.'' : '';
-    $classes .= ($rotate) ? ' fa-rotate-'.$rotate.'' : '';
-    $classes .= ($flip) ? ' fa-flip-'.$flip.'' : '';
-    $classes .= ($pull) ? ' pull-'.$pull.'' : '';
-    $classes .= ($animated) ? ' fa-spin' : '';
-    $classes .= ($class) ? ' '.$class : '';
-
-    $theAwesomeFont = '<i class="fa '.esc_html($classes).'"></i>';
-
-    return $theAwesomeFont;
-}
-
-add_shortcode('icon', 'addscFontAwesome');
 
 // Setup widget counts.
 function masa_count_widgets( $id ) {
