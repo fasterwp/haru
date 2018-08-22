@@ -1,9 +1,9 @@
 /*
-	Theme Name: Masa
-	Theme URI: https://demo.fasterwp.com/masa
-	Description: Masa is built on top of the sample theme created for the Genesis Framework.
-	Author: StudioPress & Andrei Chira
-	Author URI: https://fasterwp.com/
+	Theme Name: haru
+	Theme URI: https://demo.fasterwp.com/haru
+	Description: haru is built on top of the sample theme created for the Genesis Framework.
+	Author: Andrei Chira
+	Author URI: https://simplenet.io/
 
 	Version: 2.6.1
 
@@ -162,7 +162,7 @@ body > div {
 body {
 	background-color: #fff;
 	color: #333;
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 18px;
 	font-size: 1.8rem;
 	font-weight: 400;
@@ -257,7 +257,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-weight: 600;
 	line-height: 1.2;
 	margin: 0 0 20px;

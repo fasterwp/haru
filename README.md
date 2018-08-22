@@ -1,20 +1,20 @@
-# Masa Theme
+haru# haru Theme
 
-Github project link: https://github.com/fasterwp/masa/
+Github project link: https://github.com/fasterwp/haru/
 
 ## Theme Support
 
-Please visit <https://fasterwp.com/contact/> for theme support.
+Please visit <https://simplenet.io/contact/> for theme support.
 
 ## Installation Instructions
 
 ### Install Genesis Framework
 
-### Install and activate Masa child theme (masa.zip)
+### Install and activate haru child theme (haru.zip)
 
 1. Upload the Genesis Sample theme folder via FTP to your wp-content/themes/ directory. (The Genesis parent theme needs to be in the wp-content/themes/ directory as well.)
 2. Go to your WordPress dashboard and select Appearance.
-3. Activate the Masa theme.
+3. Activate the haru theme.
 4. Inside your WordPress dashboard, go to Genesis > Theme Settings and configure theme to your liking.
 
 ### Install and activate recommended plugins
@@ -31,10 +31,10 @@ Please visit <https://fasterwp.com/contact/> for theme support.
 
 ### Import demo content
 
-You can find the demo content in the /xml folder (file name masa-demo-content.xml).
+You can find the demo content in the /xml folder (file name haru-demo-content.xml).
 Inside your WordPress dashboard, go to Tools > Import, install WordPress Importer if necessary and run the importer.
 
-If you installed and activated the Widget Importer & Exporter plugin go to Tools > Widget Importer & Exporter, select the masa.wie file from the /xml folder and Import widgets.
+If you installed and activated the Widget Importer & Exporter plugin go to Tools > Widget Importer & Exporter, select the haru.wie file from the /xml folder and Import widgets.
 
 ### Setup Genesis, widgets & all
 

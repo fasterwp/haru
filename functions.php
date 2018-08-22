@@ -47,8 +47,8 @@ require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-output.p
 require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.php';
 
 // Defines the child theme (do not remove).
-define( 'CHILD_THEME_NAME', 'MASA Theme' );
-define( 'CHILD_THEME_URL', 'https://fasterwp.com/downloads/masa/' );
+define( 'CHILD_THEME_NAME', 'haru theme' );
+define( 'CHILD_THEME_URL', 'https://simplenet.io/haru/' );
 define( 'CHILD_THEME_VERSION', '2.6.1' );
 
 add_action( 'wp_enqueue_scripts', 'genesis_sample_enqueue_scripts_styles' );
@@ -61,7 +61,7 @@ function genesis_sample_enqueue_scripts_styles() {
 
 	wp_enqueue_style(
 		'google-fonts',
-		'//fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,600,700',
+		'//fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,700',
 		array(),
 		CHILD_THEME_VERSION
 	);

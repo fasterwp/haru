@@ -1,4 +1,4 @@
-# Masa Theme Changelog
+# haru Theme Changelog
 
 ## [2.6.1] - 2018-04-22
 
