@@ -15,8 +15,12 @@
     background-color: #eff2f5;
 }
 
+.front-page-4 {
+    color: #fff;
+}
+
 .front-page-1 {
-  background-color: #fff;
+  color: #fff;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -44,20 +48,6 @@
 .front-page-3 .widget-last {
   text-align: center;
 }
-
-.front-page .button {
-  background-color: #0073e5;
-}
-
-.front-page .button:hover {
-  background-color: #333;
-}
-
-.fa-3x,
-.fa-4x {
-    color: #0073e5;
-    margin-bottom: 20px;
-  }
 
 /* Flexible Widgets
 ---------------------------------------------------------------------------------------------------- */
